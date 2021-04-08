@@ -1,0 +1,60 @@
+body{
+    font-family: Arial;
+    padding-top: 25px;
+    margin-left:1%;
+    margin-right:1%;
+    margin-bottom:1%;
+    margin-top:1%;
+    background-color: teal;
+}
+
+header{
+    text-align: center;
+    padding-top: 20px;
+    background-color: rgb(14, 88, 57);
+    color: white;
+    box-sizing: content-box;
+    padding: 15px;
+    width: 500px;
+    height: auto;
+    margin: auto;
+}
+
+.container {
+    width: 500px;
+    clear: both;
+    margin: auto;
+    padding: 25px;
+    background-color: white;
+}
+  
+.container input {
+    width: 100%;
+    clear: both;
+}
+
+div.radio{
+    width: 500px;
+    clear: both;
+    margin: auto;
+    padding: 25px;
+    background-color: white;
+}
+
+
+.footer{
+    width: 500px;
+    clear: both;
+    margin: auto;
+    background-color: white;
+}
+
+#msg{
+    font-size: 15pt;
+    text-align: center;
+    font-weight: 700;
+}
+
+#profession{
+    padding: 15px;
+} 

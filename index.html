@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+
+<html lang="pt-BR">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    
+    <header>
+        <h1>Survey Form</h1>
+    </header>
+
+    <main>
+
+        <div class="container">
+            <h2>Personal Information</h2>
+
+            <label>* Name:</label>
+            <input type="text" name="name" id="name"> <br />
+
+            <label>* Age:</label>
+            <input type="number" name="age" id="age" maxlength="100" minlength="0"> <br />
+
+            <label >* Email:</label>
+            <input type="text" name="email" id="email"> <br />
+
+            <label>Which option best describes your current role:</label>
+
+            <select name="profession" id="profession">
+                <option value="default">--Select Option--</option>
+                <option value="Student">Student</option>
+                <option value="Working">Working</option>
+                <option value="Retired">Retired</option>
+            </select>
+        </div>
+
+        <div class="radio">
+
+            <h2>How would you describe our service:</h2>
+
+            <p>Did you like what we offer?</p> 
+            <input type="radio" name="answer" id="yes"> 
+            <label for="radio">Yes</label>
+            <input type="radio" name="answer" id="no">
+            <label for="radio">No</label>
+
+            <h2>On a scale 1-5, how would you recommend our service?</h2>
+
+            <input type="radio" name="num" id="num1">
+            <label for="num">1</label> 
+            <input type="radio" name="num" id="num2">
+            <label for="num">2</label>
+            <input type="radio" name="num" id="num3">
+            <label for="num">3</label>
+            <input type="radio" name="num" id="num4">
+            <label for="num">4</label>
+            <input type="radio" name="num" id="num5">
+            <label for="num">5</label>
+
+        </div>
+
+        <div class="footer">
+
+            <footer>
+                <p id="msg">Thanks for answering the form!</p>
+                <address>
+                    <p>
+                        Company:  <br>
+                        Email:  <br>
+                        Number: <br>
+                        Address: <br>
+                    </p>
+                </address>
+            </footer>
+            
+            
+        </div>
+            
+            
+        
+    </main>
+
+</body>
+
+</html>
